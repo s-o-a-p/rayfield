@@ -9,13 +9,13 @@ iRay  | Programming
 ]]
 
 
-
+local GUI = loadstring(game:HttpGet("https://raw.githubusercontent.com/s-o-a-p/nexus/main/savemanager"))()
 local Release = "Beta 8"
 local NotificationDuration = 6.5
 local RayfieldFolder = "Rayfield"
 local ConfigurationFolder = RayfieldFolder.."/Configurations"
 local ConfigurationExtension = ".rfld"
-local loadstring(game:HttpGet("https://raw.githubusercontent.com/s-o-a-p/nexus/main/savemanager"))()
+
 
 
 local RayfieldLibrary = {
